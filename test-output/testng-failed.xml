@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Main Test Suite]">
+  <test thread-count="5" verbose="2" name="TestSuites(failed)">
+    <classes>
+      <class name="TestCases.email_correct_password_wrong">
+        <methods>
+          <include name="testcase"/>
+          <include name="setup"/>
+          <include name="testdown"/>
+        </methods>
+      </class> <!-- TestCases.email_correct_password_wrong -->
+      <class name="TestCases.no_email_password">
+        <methods>
+          <include name="testdown"/>
+          <include name="testcase"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.no_email_password -->
+      <class name="TestCases.email_password_equal">
+        <methods>
+          <include name="setup"/>
+          <include name="testdown"/>
+          <include name="testcase"/>
+        </methods>
+      </class> <!-- TestCases.email_password_equal -->
+      <class name="TestCases.email_wrong_password_correct">
+        <methods>
+          <include name="setup"/>
+          <include name="testdown"/>
+          <include name="testcase"/>
+        </methods>
+      </class> <!-- TestCases.email_wrong_password_correct -->
+    </classes>
+  </test> <!-- TestSuites(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->
