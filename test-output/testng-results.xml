@@ -1,73 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
+    <line>
+      <![CDATA[Web browser is opened]]>
+    </line>
+    <line>
+      <![CDATA[Browser is Maximized]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the URL]]>
+    </line>
+    <line>
+      <![CDATA[Entering Email Id]]>
+    </line>
+    <line>
+      <![CDATA[Entering Wrong Password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on LogIn]]>
+    </line>
+    <line>
+      <![CDATA[Web browser is opened]]>
+    </line>
+    <line>
+      <![CDATA[Browser is Maximized]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the URL]]>
+    </line>
+    <line>
+      <![CDATA[Entering email Id]]>
+    </line>
+    <line>
+      <![CDATA[Entering Correct Password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on LogIn]]>
+    </line>
+    <line>
+      <![CDATA[Web browser is opened]]>
+    </line>
+    <line>
+      <![CDATA[Browser is Maximized]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the URL]]>
+    </line>
+    <line>
+      <![CDATA[Entering email Id]]>
+    </line>
+    <line>
+      <![CDATA[Entering Wrong Password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on LogIn]]>
+    </line>
+    <line>
+      <![CDATA[Mail is sent have all the test cases reports]]>
+    </line>
   </reporter-output>
-  <suite name="Gmail Suite" duration-ms="73914" started-at="2020-02-13T17:34:59 IST" finished-at="2020-02-13T17:36:13 IST">
+  <suite name="Test Suite" duration-ms="96365" started-at="2020-02-18T16:57:36 IST" finished-at="2020-02-18T16:59:12 IST">
     <groups>
     </groups>
-    <test name="email_correct_password_wrong" duration-ms="13525" started-at="2020-02-13T17:34:59 IST" finished-at="2020-02-13T17:35:13 IST">
+    <test name="email_correct_password_wrong" duration-ms="15863" started-at="2020-02-18T16:57:36 IST" finished-at="2020-02-18T16:57:51 IST">
       <class name="TestCases.email_correct_password_wrong">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.email_correct_password_wrong@1f7030a6]" name="setup" is-config="true" duration-ms="4614" started-at="2020-02-13T17:34:59 IST" finished-at="2020-02-13T17:35:04 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.email_correct_password_wrong@5f282abb]" name="setup" is-config="true" duration-ms="6381" started-at="2020-02-18T16:57:36 IST" finished-at="2020-02-18T16:57:42 IST">
           <reporter-output>
+            <line>
+              <![CDATA[Web browser is opened]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testcase()[pri:0, instance:TestCases.email_correct_password_wrong@1f7030a6]" name="testcase" duration-ms="7494" started-at="2020-02-13T17:35:04 IST" finished-at="2020-02-13T17:35:11 IST">
+        <test-method status="PASS" signature="testcase()[pri:0, instance:TestCases.email_correct_password_wrong@5f282abb]" name="testcase" duration-ms="8618" started-at="2020-02-18T16:57:42 IST" finished-at="2020-02-18T16:57:51 IST">
           <reporter-output>
+            <line>
+              <![CDATA[Browser is Maximized]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the URL]]>
+            </line>
+            <line>
+              <![CDATA[Entering Email Id]]>
+            </line>
+            <line>
+              <![CDATA[Entering Wrong Password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on LogIn]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="testdown()[pri:0, instance:TestCases.email_correct_password_wrong@1f7030a6]" name="testdown" is-config="true" duration-ms="1354" started-at="2020-02-13T17:35:11 IST" finished-at="2020-02-13T17:35:13 IST">
+        <test-method status="PASS" signature="testdown()[pri:0, instance:TestCases.email_correct_password_wrong@5f282abb]" name="testdown" is-config="true" duration-ms="809" started-at="2020-02-18T16:57:51 IST" finished-at="2020-02-18T16:57:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testdown -->
       </class> <!-- TestCases.email_correct_password_wrong -->
     </test> <!-- email_correct_password_wrong -->
-    <test name="email_password_equal" duration-ms="32699" started-at="2020-02-13T17:35:13 IST" finished-at="2020-02-13T17:35:46 IST">
+    <test name="email_password_equal" duration-ms="51268" started-at="2020-02-18T16:57:52 IST" finished-at="2020-02-18T16:58:43 IST">
       <class name="TestCases.email_password_equal">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.email_password_equal@5faeada1]" name="setup" is-config="true" duration-ms="5413" started-at="2020-02-13T17:35:13 IST" finished-at="2020-02-13T17:35:18 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.email_password_equal@33c7e1bb]" name="setup" is-config="true" duration-ms="5381" started-at="2020-02-18T16:57:52 IST" finished-at="2020-02-18T16:57:57 IST">
           <reporter-output>
+            <line>
+              <![CDATA[Web browser is opened]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testcase()[pri:0, instance:TestCases.email_password_equal@5faeada1]" name="testcase" duration-ms="26265" started-at="2020-02-13T17:35:18 IST" finished-at="2020-02-13T17:35:45 IST">
+        <test-method status="PASS" signature="testcase()[pri:0, instance:TestCases.email_password_equal@33c7e1bb]" name="testcase" duration-ms="45040" started-at="2020-02-18T16:57:57 IST" finished-at="2020-02-18T16:58:42 IST">
           <reporter-output>
+            <line>
+              <![CDATA[Browser is Maximized]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the URL]]>
+            </line>
+            <line>
+              <![CDATA[Entering email Id]]>
+            </line>
+            <line>
+              <![CDATA[Entering Correct Password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on LogIn]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="testdown()[pri:0, instance:TestCases.email_password_equal@5faeada1]" name="testdown" is-config="true" duration-ms="1008" started-at="2020-02-13T17:35:45 IST" finished-at="2020-02-13T17:35:46 IST">
+        <test-method status="PASS" signature="testdown()[pri:0, instance:TestCases.email_password_equal@33c7e1bb]" name="testdown" is-config="true" duration-ms="837" started-at="2020-02-18T16:58:42 IST" finished-at="2020-02-18T16:58:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testdown -->
       </class> <!-- TestCases.email_password_equal -->
     </test> <!-- email_password_equal -->
-    <test name="no_email_password" duration-ms="13409" started-at="2020-02-13T17:35:46 IST" finished-at="2020-02-13T17:35:59 IST">
+    <test name="no_email_password" duration-ms="14835" started-at="2020-02-18T16:58:43 IST" finished-at="2020-02-18T16:58:58 IST">
       <class name="TestCases.no_email_password">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.no_email_password@52feb982]" name="setup" is-config="true" duration-ms="5790" started-at="2020-02-13T17:35:46 IST" finished-at="2020-02-13T17:35:51 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.no_email_password@bd8db5a]" name="setup" is-config="true" duration-ms="5469" started-at="2020-02-18T16:58:43 IST" finished-at="2020-02-18T16:58:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testcase()[pri:0, instance:TestCases.no_email_password@52feb982]" name="testcase" duration-ms="6140" started-at="2020-02-13T17:35:51 IST" finished-at="2020-02-13T17:35:58 IST">
+        <test-method status="PASS" signature="testcase()[pri:0, instance:TestCases.no_email_password@bd8db5a]" name="testcase" duration-ms="7088" started-at="2020-02-18T16:58:48 IST" finished-at="2020-02-18T16:58:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="testdown()[pri:0, instance:TestCases.no_email_password@52feb982]" name="testdown" is-config="true" duration-ms="1473" started-at="2020-02-13T17:35:58 IST" finished-at="2020-02-13T17:35:59 IST">
+        <test-method status="PASS" signature="testdown()[pri:0, instance:TestCases.no_email_password@bd8db5a]" name="testdown" is-config="true" duration-ms="2272" started-at="2020-02-18T16:58:55 IST" finished-at="2020-02-18T16:58:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testdown -->
       </class> <!-- TestCases.no_email_password -->
     </test> <!-- no_email_password -->
-    <test name="email_wrong_password_correct" duration-ms="14149" started-at="2020-02-13T17:35:59 IST" finished-at="2020-02-13T17:36:13 IST">
+    <test name="email_wrong_password_correct" duration-ms="14154" started-at="2020-02-18T16:58:58 IST" finished-at="2020-02-18T16:59:12 IST">
       <class name="TestCases.email_wrong_password_correct">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.email_wrong_password_correct@80503]" name="setup" is-config="true" duration-ms="5463" started-at="2020-02-13T17:35:59 IST" finished-at="2020-02-13T17:36:05 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.email_wrong_password_correct@7d70d1b1]" name="setup" is-config="true" duration-ms="5374" started-at="2020-02-18T16:58:58 IST" finished-at="2020-02-18T16:59:03 IST">
           <reporter-output>
+            <line>
+              <![CDATA[Web browser is opened]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testcase()[pri:0, instance:TestCases.email_wrong_password_correct@80503]" name="testcase" duration-ms="7817" started-at="2020-02-13T17:36:05 IST" finished-at="2020-02-13T17:36:12 IST">
+        <test-method status="PASS" signature="testcase()[pri:0, instance:TestCases.email_wrong_password_correct@7d70d1b1]" name="testcase" duration-ms="7989" started-at="2020-02-18T16:59:03 IST" finished-at="2020-02-18T16:59:11 IST">
           <reporter-output>
+            <line>
+              <![CDATA[Browser is Maximized]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the URL]]>
+            </line>
+            <line>
+              <![CDATA[Entering email Id]]>
+            </line>
+            <line>
+              <![CDATA[Entering Wrong Password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on LogIn]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="testdown()[pri:0, instance:TestCases.email_wrong_password_correct@80503]" name="testdown" is-config="true" duration-ms="865" started-at="2020-02-13T17:36:12 IST" finished-at="2020-02-13T17:36:13 IST">
+        <test-method status="PASS" signature="testdown()[pri:0, instance:TestCases.email_wrong_password_correct@7d70d1b1]" name="testdown" is-config="true" duration-ms="784" started-at="2020-02-18T16:59:11 IST" finished-at="2020-02-18T16:59:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testdown -->
       </class> <!-- TestCases.email_wrong_password_correct -->
     </test> <!-- email_wrong_password_correct -->
-  </suite> <!-- Gmail Suite -->
+    <test name="email_reports" duration-ms="1" started-at="2020-02-18T16:59:12 IST" finished-at="2020-02-18T16:59:12 IST">
+      <class name="TestCases.email_reports">
+        <test-method status="PASS" signature="emailreportAPI()[pri:0, instance:TestCases.email_reports@687080dc]" name="emailreportAPI" is-config="true" duration-ms="1377" started-at="2020-02-18T16:59:12 IST" finished-at="2020-02-18T16:59:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Mail is sent have all the test cases reports]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emailreportAPI -->
+      </class> <!-- TestCases.email_reports -->
+    </test> <!-- email_reports -->
+  </suite> <!-- Test Suite -->
 </testng-results>

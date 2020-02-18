@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.email_correct_password_wrong">
+      <class name="TestCases.email_reports">
         <methods>
           <include name="testcase"/>
-          <include name="setup"/>
-          <include name="testdown"/>
+          <include name="testdata"/>
+          <include name="session"/>
         </methods>
-      </class> <!-- TestCases.email_correct_password_wrong -->
+      </class> <!-- TestCases.email_reports -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
