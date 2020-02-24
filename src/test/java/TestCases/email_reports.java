@@ -94,7 +94,7 @@ public class email_reports {
 		try {
 			// Authentication and connection establishment to the sender's mail
 			Transport transport = session.getTransport("smtp");
-			transport.connect("smtp.office365.com", 587, "prankur.pandey@taritas.com", "suman1997@P");
+			transport.connect("smtp.office365.com", 587, "mail", "pwd");
 			transport.sendMessage(msg, msg.getAllRecipients());
 			transport.close();
 
